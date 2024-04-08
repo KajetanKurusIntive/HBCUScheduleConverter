@@ -1,38 +1,83 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  background: linear-gradient(to bottom right, rgb(245, 228, 39), rgb(89, 1, 89)); /* Gradient background */
+  height: 100vh; /* Full height */
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  padding: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+.App-logo {
+  height: 200px; /* Adjust the logo size as needed */
+  pointer-events: none; /* Ensure the logo is not clickable */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-content {
+  padding: 20px;
+}
+
+/* Styles for file input */
+.file-input {
+  position: relative;
+  overflow: hidden;
+  background-color:rgb(89, 1, 89); /* Purple background */
+  color: rgb(247, 229, 23); /* Yellow text */
+  padding: 15px 30px; /* Padding for button */
+  font-size: 18px; /* Font size */
+  border: none; /* Remove border */
+  cursor: pointer; /* Change cursor on hover */
+  display: inline-block; /* Ensure button respects padding */
+}
+
+.file-input:hover {
+  opacity: 0.8; /* Reduce opacity on hover */
+}
+
+.file-input input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+}
+
+
+/* Styles for FAQ section */
+.faq-section {
+  margin-top: 50px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.faq-section h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.faq-section h3 {
+  margin-top: 20px;
+}
+
+.faq-section ol {
+  list-style-type: none;
+  padding: 0; /* Remove default padding */
+}
+
+.faq-section ol li {
+  padding-left: 10px; /* Adjust padding for list items */
+}
+
+.faq-section a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.faq-section a:hover {
+  text-decoration: underline;
 }

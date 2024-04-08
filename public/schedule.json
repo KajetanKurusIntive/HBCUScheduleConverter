@@ -1,0 +1,84 @@
+{
+    "schedule": [
+        {
+            "week": 1,
+            "startDate": "2023-11-25T18:00:00+0000",
+            "endDate": "2023-11-25T21:30:00+0000",
+            "home": "Tuskegee University",
+            "away": "Fort Valley State",
+            "subtitle": "",
+            "location": "HPE Arena - Fort Valley",
+            "conference": [
+                "SIAC"
+            ],
+            "airing": true,
+            "final": true,
+            "homescore": null,
+            "awayscore": null
+        },
+        {
+            "week": 2,
+            "startDate": "2023-12-02T18:00:00+0000",
+            "endDate": "2023-12-02T21:30:00+0000",
+            "home": "Fort Valley State",
+            "away": "LeMoyne - Owen College",
+            "subtitle": "",
+            "location": "Bruce-Johnson Hall - Memphis",
+            "conference": [
+                "SIAC"
+            ],
+            "airing": false,
+            "final": true,
+            "homescore": null,
+            "awayscore": null
+        },
+        {
+            "week": 3,
+            "startDate": "2023-12-09T18:00:00+0000",
+            "endDate": "2023-12-09T21:30:00+0000",
+            "home": "Virginia State",
+            "away": "Fayetteville State",
+            "subtitle": "",
+            "location": "Felton J. Capel Arena - Fayetteville",
+            "conference": [
+                "CIAA"
+            ],
+            "airing": true,
+            "final": false,
+            "homescore": null,
+            "awayscore": null
+        },
+        {
+            "week": 4,
+            "startDate": "2023-12-16T18:00:00+0000",
+            "endDate": "2023-12-16T21:30:00+0000",
+            "home": "Livingstone College",
+            "away": "Bowie State",
+            "subtitle": "",
+            "location": "A.C. Jordan Arena - Bowie",
+            "conference": [
+                "CIAA"
+            ],
+            "airing": false,
+            "final": true,
+            "homescore": null,
+            "awayscore": null
+        },
+        {
+            "week": 5,
+            "startDate": "2023-12-23T18:00:00+0000",
+            "endDate": "2023-12-23T21:30:00+0000",
+            "home": "Talladega College",
+            "away": "Shaw University",
+            "subtitle": "",
+            "location": "Forbes Arena - Atlanta",
+            "conference": [
+                "CIAA"
+            ],
+            "airing": true,
+            "final": true,
+            "homescore": null,
+            "awayscore": null
+        }
+    ]
+}

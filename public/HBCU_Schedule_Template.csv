@@ -1,0 +1,6 @@
+﻿week;startDate;endDate;home;away;subtitle;location;conference;airing;final;homescore;awayscore
+1;2023-11-25T18:00:00+0000;2023-11-25T21:30:00+0000;Tuskegee University;Fort Valley State;;HPE Arena - Fort Valley;SIAC;TRUE;TRUE;;
+2;2023-12-02T18:00:00+0000;2023-12-02T21:30:00+0000;Fort Valley State;LeMoyne - Owen College;;Bruce-Johnson Hall - Memphis;SIAC;FALSE;TRUE;;
+3;2023-12-09T18:00:00+0000;2023-12-09T21:30:00+0000;Virginia State;Fayetteville State;;Felton J. Capel Arena - Fayetteville;CIAA;TRUE;FALSE;;
+4;2023-12-16T18:00:00+0000;2023-12-16T21:30:00+0000;Livingstone College;Bowie State;;A.C. Jordan Arena - Bowie;CIAA;FALSE;TRUE;;
+5;2023-12-23T18:00:00+0000;2023-12-23T21:30:00+0000;Talladega College;Shaw University;;Forbes Arena - Atlanta;CIAA;TRUE;TRUE;;
